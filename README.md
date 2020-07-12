@@ -32,11 +32,11 @@ Delphi 10 with Advanced Database
 - Copy System32 folder to Windows\System32 (Win32 systems) or Windows\SysWOW64 (Win64 systems):
     - Windows 32-Bit: 
 
-    ```copy c:\adsdelphi\files\System32\*.* C:\Windows\System32\```
+        ```copy c:\adsdelphi\files\System32\*.* C:\Windows\System32\```
  
      - Windows 64-Bit: 
 
-    ```copy c:\adsdelphi\files\System32\*.* C:\Windows\SysWOW64\```
+        ```copy c:\adsdelphi\files\System32\*.* C:\Windows\SysWOW64\```
 
 
 - Copy the content of c:\adsdelphi\files\program files to your program files(x86):
@@ -52,12 +52,10 @@ Delphi 10 with Advanced Database
 
 
 - Replace versions.inc files:
-
-```copy -Confirm C:\adsdelphi\versions.inc "C:\Program Files (x86)\Advantage 12.0\TDataset\Delphi101Berlin\Win32\versions.inc"
-copy -Confirm C:\adsdelphi\versions.inc "C:\Program Files (x86)\Advantage 12.0\TDataset\Delphi101Berlin\Win32\Source\versions.inc"
-copy -Confirm C:\adsdelphi\versions.inc "C:\Program Files (x86)\Advantage 12.0\TDataset\Delphi101Berlin\Win64\versions.inc"
-copy -Confirm C:\adsdelphi\versions.inc "C:\Program Files (x86)\Advantage 12.0\TDataset\Delphi101Berlin\Win64\Source\versions.inc"
-```
+    ```copy -Confirm C:\adsdelphi\versions.inc "C:\Program Files (x86)\Advantage 12.0\TDataset\Delphi101Berlin\Win32\versions.inc"```
+    ```copy -Confirm C:\adsdelphi\versions.inc "C:\Program Files (x86)\Advantage 12.0\TDataset\Delphi101Berlin\Win32\Source\versions.inc"```
+    ```copy -Confirm C:\adsdelphi\versions.inc "C:\Program Files (x86)\Advantage 12.0\TDataset\Delphi101Berlin\Win64\versions.inc"```
+    ```copy -Confirm C:\adsdelphi\versions.inc "C:\Program Files (x86)\Advantage 12.0\TDataset\Delphi101Berlin\Win64\Source\versions.inc"```
 
 
 - Search files:
