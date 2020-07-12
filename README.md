@@ -33,7 +33,7 @@ Copy System32 folder to Windows\System32 (Win32 systems) or Windows\SysWOW64 (Wi
 Windows 32-Bit: 
 
 ```copy c:\adsdelphi\files\System32\*.* C:\Windows\System32\```
-
+ 
 Windows 64-Bit: 
 
 ```copy c:\adsdelphi\files\System32\*.* C:\Windows\SysWOW64\```
