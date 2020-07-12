@@ -30,28 +30,25 @@ Delphi 10 with Advanced Database
 
 
 - Copy System32 folder to Windows\System32 (Win32 systems) or Windows\SysWOW64 (Win64 systems):
-    Windows 32-Bit: 
+    - Windows 32-Bit: 
 
     ```copy c:\adsdelphi\files\System32\*.* C:\Windows\System32\```
  
-     Windows 64-Bit: 
+     - Windows 64-Bit: 
 
     ```copy c:\adsdelphi\files\System32\*.* C:\Windows\SysWOW64\```
 
 
 - Copy the content of c:\adsdelphi\files\program files to your program files(x86):
-
-```Copy-Item -Recurse -Path "C:\adsdelphi\files\program files\Advantage 12.0" -Destination "C:\Program Files (x86)"```
+    ```Copy-Item -Recurse -Path "C:\adsdelphi\files\program files\Advantage 12.0" -Destination "C:\Program Files (x86)"```
 
 
 - Download modified versions.inc file:
-
-```wget https://www.jd-engineering.de/wordpress/wp-content/uploads/2016/05/versions.inc_.txt -OutFile c:\adsdelphi\versions.inc```
+    ```wget https://www.jd-engineering.de/wordpress/wp-content/uploads/2016/05/versions.inc_.txt -OutFile c:\adsdelphi\versions.inc```
 
 
 - Make a copy of the latest supported Delphi version (my latest version isDelphi10SEATTLE):
-
-```Copy-Item -Recurse -Path "C:\Program Files (x86)\Advantage 12.0\TDataset\Delphi10SEATTLE" -Destination "C:\Program Files (x86)\Advantage 12.0\TDataset\Delphi101Berlin"```
+    ```Copy-Item -Recurse -Path "C:\Program Files (x86)\Advantage 12.0\TDataset\Delphi10SEATTLE" -Destination "C:\Program Files (x86)\Advantage 12.0\TDataset\Delphi101Berlin"```
 
 
 - Replace versions.inc files:
