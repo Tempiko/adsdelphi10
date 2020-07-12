@@ -69,5 +69,5 @@ Delphi 10 with Advanced Database
 
 ```Get-ChildItem -Path "C:\Program Files (x86)\Advantage 12.0\" -Filter adsdxe8studio.dproj -Recurse```
 
-![alt text](https://imgur.com/a/dqjNAEL "")
+![alt text](https://i.imgur.com/XhsFVeT.png "")
 
