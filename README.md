@@ -1,5 +1,5 @@
 # adsdelphi10
-Delphi 10 with Advanced Database
+Delphi 10 with Advanced Database ( adsdelphi-12-sp1.exe ) 
 
 ## Installation Windows 10:
 
