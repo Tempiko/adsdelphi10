@@ -3,12 +3,12 @@ Delphi 10 with Advanced Database
 
 ## Installation Windows 10:
 
-Clean %temp% - Directory
+- Clean %temp% - Directory
 
-Start "Installing Advantage Delphi Components v12"
+- Start "Installing Advantage Delphi Components v12"
 
-Stop at SAP - welcome screen, Go to %Temp% - Directory, enter new created install directory:
-Open powershell in created directory
+- Stop at SAP - welcome screen, Go to %Temp% - Directory, enter new created install directory:
+- Open powershell in created directory
 
 ```msiexec /a "Advantage Delphi Components v12.0.msi" /qb TARGETDIR=C:\adsdelphi\files```
 
