@@ -10,7 +10,7 @@ Delphi 10 with Advanced Database
 - Stop at SAP - welcome screen, Go to %Temp% - Directory, enter new created install directory:
 - Open powershell in created directory
 
-```msiexec /a "Advantage Delphi Components v12.0.msi" /qb TARGETDIR=C:\adsdelphi\files```
+    ```msiexec /a "Advantage Delphi Components v12.0.msi" /qb TARGETDIR=C:\adsdelphi\files```
 
 - ignore adslocal.cfg errors
 
@@ -18,25 +18,25 @@ Delphi 10 with Advanced Database
 
 - Edit adslocal.cfg, set ANSI_CHAR_SET and OEM_CHAR_SET to match your collation:
 
-```notepad c:\adsdelphi\files\System32\adslocal.cfg```
+    ```notepad c:\adsdelphi\files\System32\adslocal.cfg```
 
 
 - Open Powershell as Administrator
 
 - Delete all BPI and BPL files in "c:\adsdelphi\files\System32\":
 
-```del "c:\adsdelphi\files\System32\*.bpl"```
-```del "c:\adsdelphi\files\System32\*.bpi"```
+    ```del "c:\adsdelphi\files\System32\*.bpl"```
+    ```del "c:\adsdelphi\files\System32\*.bpi"```
 
 
 - Copy System32 folder to Windows\System32 (Win32 systems) or Windows\SysWOW64 (Win64 systems):
- - Windows 32-Bit: 
+    Windows 32-Bit: 
 
-```copy c:\adsdelphi\files\System32\*.* C:\Windows\System32\```
+    ```copy c:\adsdelphi\files\System32\*.* C:\Windows\System32\```
  
- - Windows 64-Bit: 
+     Windows 64-Bit: 
 
-```copy c:\adsdelphi\files\System32\*.* C:\Windows\SysWOW64\```
+    ```copy c:\adsdelphi\files\System32\*.* C:\Windows\SysWOW64\```
 
 
 - Copy the content of c:\adsdelphi\files\program files to your program files(x86):
