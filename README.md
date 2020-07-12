@@ -40,21 +40,28 @@ Delphi 10 with Advanced Database
 
 
 - Copy the content of c:\adsdelphi\files\program files to your program files(x86):
+    
     ```Copy-Item -Recurse -Path "C:\adsdelphi\files\program files\Advantage 12.0" -Destination "C:\Program Files (x86)"```
 
 
 - Download modified versions.inc file:
+    
     ```wget https://www.jd-engineering.de/wordpress/wp-content/uploads/2016/05/versions.inc_.txt -OutFile c:\adsdelphi\versions.inc```
 
 
 - Make a copy of the latest supported Delphi version (my latest version isDelphi10SEATTLE):
+    
     ```Copy-Item -Recurse -Path "C:\Program Files (x86)\Advantage 12.0\TDataset\Delphi10SEATTLE" -Destination "C:\Program Files (x86)\Advantage 12.0\TDataset\Delphi101Berlin"```
 
 
 - Replace versions.inc files:
+    
     ```copy -Confirm C:\adsdelphi\versions.inc "C:\Program Files (x86)\Advantage 12.0\TDataset\Delphi101Berlin\Win32\versions.inc"```
+    
     ```copy -Confirm C:\adsdelphi\versions.inc "C:\Program Files (x86)\Advantage 12.0\TDataset\Delphi101Berlin\Win32\Source\versions.inc"```
+    
     ```copy -Confirm C:\adsdelphi\versions.inc "C:\Program Files (x86)\Advantage 12.0\TDataset\Delphi101Berlin\Win64\versions.inc"```
+    
     ```copy -Confirm C:\adsdelphi\versions.inc "C:\Program Files (x86)\Advantage 12.0\TDataset\Delphi101Berlin\Win64\Source\versions.inc"```
 
 
